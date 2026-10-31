@@ -1,0 +1,11 @@
+[project]
+name = "2026-10-31-slack-showcase-bot"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.3.0",
+    "pillow>=13.0.0",
+    "pydantic>=2.14.2",
+    "slack-bolt>=1.30.0",
+    "slack-sdk>=3.46.0",
+]
