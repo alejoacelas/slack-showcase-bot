@@ -27,7 +27,7 @@ unfurls, shortcuts, the assistant panel and a Workflow Builder step.
 - [showcase/gh.py](showcase/gh.py) and [showcase/store.py](showcase/store.py):
   GitHub calls and SQLite state.
 
-Run locally: `~/best/dotfiles/bin/op-agent run --env-file=deploy/alejo/mac.env.tpl -- uv run python -m showcase.app`.
+Run locally: `~/best/stash/dotfiles/bin/op-agent run --env-file=deploy/alejo/mac.env.tpl -- uv run python -m showcase.app`.
 Stop the server copy first; Slack splits events between connections.
 
 ## Deploy (agent server)
